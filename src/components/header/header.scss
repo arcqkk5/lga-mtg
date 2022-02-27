@@ -1,0 +1,19 @@
+.header {
+  margin: 30px auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: #fff;
+  }
+}

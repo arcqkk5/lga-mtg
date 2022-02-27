@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { fetchUser } from "../../redux/actions";
 import { StoreState } from "../../redux/reducers/redusers";
+import "./header.scss";
 
 interface HeaderProps {
   fetchUser(): any;

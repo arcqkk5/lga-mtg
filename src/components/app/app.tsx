@@ -5,8 +5,6 @@ import Header from "../header/header";
 import MainPage from "../pages/mainPage";
 import DropdownsPage from "../pages/dropdownPage";
 
-import "./app.scss";
-
 const Page404 = lazy(() => import("../pages/404"));
 
 class App extends Component {

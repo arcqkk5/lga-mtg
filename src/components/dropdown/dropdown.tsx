@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { User, UserData, fetchUser, fetchUserData } from "../../redux/actions";
 import { StoreState } from "../../redux/reducers/redusers";
 import { v4 as uuidv4 } from "uuid";
+import "./dropdown.scss";
 
 interface DropdownProps {
   users: User[];

@@ -3,6 +3,7 @@ import Dialog from "../dialog/dialog";
 import { connect } from "react-redux";
 import { showModalWindow, hideModalWindow } from "../../redux/actions";
 import { StoreState } from "../../redux/reducers/redusers";
+import "./modal.scss";
 
 interface ModalProps {
   isShow: boolean;
